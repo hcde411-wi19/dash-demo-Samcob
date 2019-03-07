@@ -18,7 +18,7 @@ app = dash.Dash(__name__)
 # set up an layout
 app.layout = html.Div(children=[
     # H1 title on the page
-    html.H1(children='Hello Dash for HCDE 411'),
+    html.H1(children='Exercise 1'),
 
     # a div to put a short description
     html.Div(children='''
@@ -27,7 +27,7 @@ app.layout = html.Div(children=[
 
     # append the visualization to the page
     dcc.Graph(
-        id='example-graph',
+        id='exercise 2 graph',
         figure={
             # configure the data
             'data': [
